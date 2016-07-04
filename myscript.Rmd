@@ -1,12 +1,14 @@
 ---
-title: "MyScript"
-author: "Christian Burkhart"
-output: md_document
+output: html_document
+runtime: shiny
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(cache=TRUE)
+```{r, echo = FALSE}
+numericInput("n",
+ "How many cars?", 5)
+renderTable({
+ head(cars, input$n)
+})
 ```
 
 
