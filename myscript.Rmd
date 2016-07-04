@@ -2,13 +2,18 @@
 title: "MyScript"
 author: "Christian Burkhart"
 date: "4. Juli 2016"
-output: html_document
+output: md_document
 ---
 
 
 This is my first markdown document.
 This is my pull rquest.
 
+# Erste Überschrift
+
+* Liste
+* Liste
+* Liste
 
 
 ```{r}
