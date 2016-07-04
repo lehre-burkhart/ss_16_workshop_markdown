@@ -1,7 +1,5 @@
-This is my first markdown document. This is my pull rquest.
-
-Erste Überschrift
-=================
+Erste Ãœberschrift
+==================
 
 -   Liste
 -   Liste
@@ -9,6 +7,12 @@ Erste Überschrift
 
 <!-- -->
 
-    1 + 1
+    library(ggplot2)
 
-    ## [1] 2
+    x <- seq(0, 1, by = .1)
+    y <- seq(0, 1, by = .1)
+
+    ggplot(NULL, aes(x = x, y = y)) +
+      geom_point()
+
+![](README_files/figure-markdown_strict/unnamed-chunk-1-1.png)
