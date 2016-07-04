@@ -5,14 +5,19 @@ output: md_document
 ---
 
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+
 # Erste Überschrift
 
 * Liste
 * Liste
 * Liste
 
+This is my **text**. It is quite tricky. Here is another solution.
 
-$\frac{3}{4}$. asdlkföjlkdsj
 
 ```{r mytest, echo=FALSE}
 library(ggplot2)
