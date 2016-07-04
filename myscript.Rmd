@@ -1,7 +1,6 @@
 ---
 title: "MyScript"
 author: "Christian Burkhart"
-date: "4. Juli 2016"
 output: md_document
 ---
 
@@ -13,7 +12,7 @@ output: md_document
 * Liste
 
 
-```{r}
+```{r mytest, echo=FALSE}
 library(ggplot2)
 
 x <- seq(0, 1, by = .1)
