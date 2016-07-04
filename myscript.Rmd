@@ -16,7 +16,8 @@ knitr::opts_chunk$set(cache=TRUE)
 * Liste
 * Liste
 
-This is my **text**. It is quite tricky. Here is another solution.t
+This is my **text**. It is quite tricky. Here is another solution. blabla
+
 
 
 ```{r mytest, echo=FALSE}
