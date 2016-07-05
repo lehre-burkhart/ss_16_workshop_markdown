@@ -1,11 +1,11 @@
 Wickham (2010) entwickelt fantastische Pakete in R. Mit seinen Paketen
 [ggplot2](http://ggplot2.org/) oder
 [dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html)
-macht Datenenalyse SpaÃŸ.
+macht Datenenalyse Spaß.
 
 Um R zu lernen, muss man sehr selbstreguliert sein (Zimmerman, 2002).
 Die mentalen Modelle (siehe Johnson-Laird, 1989, p. 467--499) der
-Lernenden mÃ¼ssen sich StÃ¼ck fÃ¼r StÃ¼ck anpassen.
+Lernenden müssen sich Stück für Stück anpassen.
 
 Literaturverzeichnis
 --------------------
