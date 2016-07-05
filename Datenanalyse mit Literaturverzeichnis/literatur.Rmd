@@ -1,0 +1,12 @@
+---
+title: "Datenanalyse mit Bibliography"
+output: html_document
+bibliography: bibliography.bib
+csl: apa.csl
+---
+
+@Wickham2010 entwickelt fantastische Pakete in R. Mit seinen Paketen [ggplot2](http://ggplot2.org/) oder [dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) macht Datenenalyse Spaß.
+
+Um R zu lernen, muss man sehr selbstreguliert sein [@Zimmerman2002]. Die mentalen Modelle [siehe @Johnson-Laird1989, 467--499] der Lernenden müssen sich Stück für Stück anpassen.
+
+## Literaturverzeichnis
