@@ -1,0 +1,30 @@
+---
+title: "Daten mit Visualisierung"
+output: md_document
+---
+
+
+```{r Load packages, echo=FALSE}
+library(ggplot2)
+```
+
+```{r Variables}
+first_colour <- "#684F91"
+```
+
+
+```{r Read data from file}
+cars <- read.csv("data/cars.csv", sep = ",")
+```
+
+```{r, results='asis'}
+knitr::kable(cars)
+```
+```
+
+```{r Display relationship}
+ggplot(cars, aes(x = speed, y = dist)) +
+  geom_point(size = 2) +
+  geom_smooth(method = lm, se = TRUE, colour = first_colour)
+```
+
