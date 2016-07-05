@@ -17,11 +17,6 @@ first_colour <- "#684F91"
 cars <- read.csv("data/cars.csv", sep = ",")
 ```
 
-```{r, results='asis'}
-knitr::kable(cars)
-```
-```
-
 ```{r Display relationship}
 ggplot(cars, aes(x = speed, y = dist)) +
   geom_point(size = 2) +
